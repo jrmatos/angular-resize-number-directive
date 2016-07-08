@@ -31,6 +31,6 @@ min-font-size            The min size of the font
 default-number-size      The length where the directive starts to work on
 ```
 
-## LICENSE 
+## LICENSE
 
 MIT
