@@ -25,7 +25,7 @@ angular.module('app', ['resizeNumber']);
 
 ```
 tag (optional)           A container beyond the one made by the directive to wrap the number
-value                    The actual value. It can be a constant value or a expression
+value                    The actual value. It can be a constant value or an expression
 max-font-size            The max size of the font
 min-font-size            The min size of the font
 default-number-size      The length where the directive starts to work on
