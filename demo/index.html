@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+	<title>Angular Resize Number Directive</title>
+	<script type="text/javascript" src="../bower_components/angular/angular.min.js"></script>
+    <script type="text/javascript" src="../dist/resize-number-directive.js"></script>
+	<script type="text/javascript">
+		angular.module('app', ['resizeNumber'])
+		.controller('mainCtrl', ['$scope', '$interval', function ($scope, $interval) {
+			$scope.value = 12345;
+            // update value every 2 seconds
+            $interval(function () { $scope.value *= 10; }, 2000);
+		}]);		
+	</script>
+</head>
+<body ng-controller="mainCtrl">
+    <resize-number tag="h1" value="{{value}}" max-font-size="40" min-font-size="20" default-number-size="5" decrease-rate="2"></resize-number>
+</body>
+</html>
