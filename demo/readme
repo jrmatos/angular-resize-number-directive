@@ -1,4 +1,4 @@
-Command lines to download dependencies:
+Command lines to download dependencies of this demo:
 
 $ bower install
 $ npm install
