@@ -8,9 +8,9 @@ AngularJS directive to resize the font of a number container as the number incre
 
 ## How to use
 
-1. Include the `<script src="angular-resize-number-directive.min.js"></script>` on your HTML document.
+1. Include the `<script src="angular-resize-number-directive.min.js"></script>` in your HTML document.
 
-2. Include the `resizeNumber` dependency on your Angular module:
+2. Include the `resizeNumber` dependency in your Angular module:
 
 ``` javascript
 angular.module('app', ['resizeNumber']);
