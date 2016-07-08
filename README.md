@@ -18,11 +18,11 @@ angular.module('app', ['resizeNumber']);
 ## Parameters
 
 ```
-**tag** (optional)           A container beyond the one made by the directive to wrap the number
-**value**                    The actual value. It can be a constant value or a expression
-m**ax-font-size**            The max size of the font
-**min-font-size**            The min size of the font
-**default-number-size**      The length where the directive starts to work on
+tag (optional)           A container beyond the one made by the directive to wrap the number
+value                    The actual value. It can be a constant value or a expression
+max-font-size            The max size of the font
+min-font-size            The min size of the font
+default-number-size      The length where the directive starts to work on
 ```
 
 ## LICENSE 
