@@ -1,6 +1,6 @@
 #Angular Resize Number Directive
 
-AngularJS directive to resize the font of a number container as the number increase.
+AngularJS directive to resize font-size of a number container as the number increase.
 
 ## How to install
 
@@ -8,9 +8,9 @@ AngularJS directive to resize the font of a number container as the number incre
 
 ## How to use
 
-1. Include the <script> `angular-resize-number-directive.min.js` on your HTML document.
+1. Include the <script> `angular-resize-number-directive.min.js` in your HTML document.
 
-2. Include the `resizeNumber` dependency on your Angular module:
+2. Include the `resizeNumber` dependency in your Angular module:
 
 ``` javascript
 angular.module('app', ['resizeNumber']);
@@ -31,6 +31,6 @@ min-font-size            The min size of the font
 default-number-size      The length where the directive starts to work on
 ```
 
-## LICENSE
+## LICENSE 
 
 MIT
