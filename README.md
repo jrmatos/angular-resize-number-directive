@@ -18,7 +18,7 @@ angular.module('app', ['resizeNumber']);
 
 3. Call the directive with its parameters:
 ``` html
-<resize-number tag="h1" value="12345678" max-font-size="40" min-font-size="20" default-number-size="5" 
+<resize-number tag="h1" value="12345678" max-font-size="40" min-font-size="20" default-number-size="5" decrease-rate="2"></resize-number>
 ```
 
 ## Parameters
@@ -29,6 +29,7 @@ value                    The actual value. It can be a constant value or an expr
 max-font-size            The max size of the font
 min-font-size            The min size of the font
 default-number-size      The length where the directive starts to work on
+decrease-rate            The decrease rate
 ```
 
 ## LICENSE 
